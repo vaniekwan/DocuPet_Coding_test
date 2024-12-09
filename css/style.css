@@ -1,22 +1,22 @@
 .body-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Full viewport height */
-    background-color: rgba(0, 0, 0, 0.05); /* Ensure text contrast is good */
+    min-height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.05); 
 }
 
 .logo-container {
     display: flex;
     justify-content: center; /* Center-aligns the logo */
     align-items: center;
-    height: 105px; /* Example height */
-    background-color: #ffffff; /* Example background color */
+    height: 105px; 
+    background-color: #ffffff; 
 }
 
 .nav_bar {
     position: absolute;
     top: 30px;
-    right: 5%; /* Use right for better alignment consistency */
+    right: 5%; 
     overflow: hidden;
 }
 
@@ -35,13 +35,13 @@
 
 .radio-toolbar {
     display: flex;
-    gap: 10px; /* Consistent spacing between buttons */
+    gap: 10px; 
     margin: 10px 0;
 }
 
 .radio-toolbar input[type="radio"] {
     opacity: 0; /* Hide the radio button */
-    position: absolute; /* Prevent shifting layout */
+    position: absolute; 
 }
 
 .radio-toolbar label {

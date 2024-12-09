@@ -69,7 +69,7 @@ document.getElementById('c_radioYes').addEventListener('change', function() {
 document.getElementById('c_radioNo').addEventListener('change', function() {
     var c_dobField = document.getElementById('c_dobFields');
     var c_approxdobField = document.getElementById('c_approxAgeField');
-    c_dobField.style.display = 'none'; 
+    c_dobField.style.display = 'none';
     c_approxdobField.style.display="block";
 });
 
@@ -88,20 +88,20 @@ document.getElementById('d_radioNo').addEventListener('change', function() {
 });
 
 /* continue button */
-const form = document.getElementById('petForm');
-const continueButton = document.getElementById('continueButton');
+/**const form = document.getElementById('petForm2');
+const saveButton = document.getElementById('saveButton');
 
 form.addEventListener('input', () => {
     if (form.checkValidity()) {
-        continueButton.disabled = false;
-        continueButton.classList.remove('btn-secondary');
-        continueButton.classList.add('btn-primary');
+        saveButton.disabled = false;
+        saveButton.classList.remove('btn-secondary');
+        saveButton.classList.add('btn-primary');
     } else {
-        continueButton.disabled = true;
-        continueButton.classList.remove('btn-primary');
-        continueButton.classList.add('btn-secondary');
+        saveButton.disabled = true;
+        saveButton.classList.remove('btn-primary');
+        saveButton.classList.add('btn-secondary');
     }
-});
+});*/
 
 
 // Show the form based on pet type selection

@@ -28,12 +28,12 @@
         <img style="width: 500px;" src="images.png" alt="foot header">
     </div>
 
-    <form id="petForm" action="registration.php" method="post">
+    <form id="petForm">
 
         <!--Pet Type -->
         <div id="petTypeSelection">
             <label for="petType">Select Pet Type:</label>
-            <select class="form-select" aria-label="Default select example" id="petType" onchange="showPetForm()" required>
+            <select class="form-select" aria-label="Default select example" id="petType" name="petType" onchange="showPetForm()" required>
                 <option value="">-- Select --</option>
                 <option value="dog">Dog</option>
                 <option value="cat">Cat</option>
@@ -71,15 +71,15 @@
 
                 <div class="mb-3">
                 <label class="form-label">Select your dog's gender:</label>
-                <div class="radio-toolbar">
-                    <input type="radio" id="dogradioMale" name="dogGender" value="male" checked>
-                    <label for="dogradioMale">Male</label>
+                    <div class="radio-toolbar">
+                        <input type="radio" id="dogradioMale" name="dogGender" value="male" checked>
+                        <label for="dogradioMale">Male</label>
 
-                    <input type="radio" id="dogradioFemale" name="dogGender" value="female">
-                    <label for="dogradioFemale">Female</label>
+                        <input type="radio" id="dogradioFemale" name="dogGender" value="female">
+                        <label for="dogradioFemale">Female</label>
 
-                </div>
-            </div>
+                    </div>
+               </div>
 
             <!-- Date of Birth Fields -->
 
@@ -116,11 +116,11 @@
 
         <div id="d_approxAgeField" class="conditional-section" style="display: none;>
             <label for="d_approxAge">What is their approximate age?</label><br>
-            <input type="number" id="d_approxAge" name="d_approxAge" placeholder="Age (in years)" min="0" style="width: 120px;">
+            <input type="number" id="d_approxAge" name="d_approxAge" placeholder="Age (in years)" min="0" max="20" style="width: 120px;">
         </div>
         <br><br>
             <div class="text-center">
-            <button type="submit" class="btn btn-secondary" id="continueButton" >Continue</button>
+            <button type="submit" class="btn btn-secondary" id="continueButton" >Save</button>
             </div>
 
 
@@ -132,7 +132,7 @@
             <br>
             <!--name -->
                 <label for="catName" class="form-label">What is your cat's name?</label>
-                <input type="text" class="form-control" id="CatName" placeholder="Enter name" required>
+                <input type="text" class="form-control" id="catName" name="catName" placeholder="Enter name" required>
             <!--Breed -->
             <label for="catBreed" class="form-label">What is your cat's breed?</label>
             <select id="catBreed" name="catBreed" class="form-control" onchange="handleCatBreedSelection()" required>
@@ -165,7 +165,7 @@
                     <label for="radioFemale">Female</label>
 
                 </div>
-            </div>
+                </div>
 
             <!-- Date of Birth Fields -->
             <label class="form-label">Do you know their date of Birth? </label>
@@ -201,12 +201,12 @@
 
         <div id="c_approxAgeField" class="conditional-section" style="display: none;">
             <label for="c_approxAge">What is their approximate age?</label><br>
-            <input type="number" id="c_approxAge" name="c_approxAge" placeholder="Age (in years)" min="0" style="width: 120px;">
+            <input type="number" id="c_approxAge" name="c_approxAge" placeholder="Age (in years)" min="0" max="20"style="width: 120px;">
         </div>
         <br><br>
 
             <div class="text-center">
-            <button type="submit" class="btn btn-secondary" id="c_continueButton" >Continue</button>
+            <button type="submit" class="btn btn-secondary" id="c_continueButton" >Save</button>
             </div>
 
         </div>
