@@ -16,6 +16,11 @@ http://localhost/landingPage.php <br><br>
 
 Note: Pet cLaws image is not the same as showed on the Mock
 
+## Known Issues
+
+1. **Form Validation Not Working landingPage.php**
+   - Description: The form validation does not work
+   - Workaround:To show my skill for backend , I created another html page landing_backEnd.php
 
 
 
