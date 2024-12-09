@@ -12,8 +12,9 @@ cd DocuPet_Coding_test
 `docker-compose up`
 
 # Access Appication
-http://localhost/landingPage.php
+http://localhost/landingPage.php <br><br>
 
+Note: Pet cLaws image is not the same as showed on the Mock
 
 
 
