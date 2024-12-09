@@ -12,7 +12,7 @@ cd DocuPet_Coding_test
 `docker-compose up`
 
 # Access Appication
-www.localhost/landingPage.php
+http://localhost/landingPage.php
 
 
 
