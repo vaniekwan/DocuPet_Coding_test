@@ -23,6 +23,29 @@ Note: Pet cLaws image is not the same as showed on the Mock
    - Workaround:To show my skill for backend , I created another html page landing_backEnd.php
 
 
+2. **Form Validation for landing_backEnd.php**
+   - Unfortunately for some reason , Field Date of Birth cause problem in posting the form 
+   - Workaround: Using the field only for dog form: so this is the informations that will be displayed <br> 
+     Pet type {cat,dog}
+     Name, Breed, Gender and if the animal is dangerous. 
+
+ 
+## Summary 
+for FrontEnd only :
+<br>
+http://localhost/landingPage.php
+
+for BackEnd:
+<br>
+http://localhost/landing_backEnd.php
+
+
+
+
+
+
+
+
 
 
 
