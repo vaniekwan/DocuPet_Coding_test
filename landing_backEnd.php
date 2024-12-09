@@ -28,7 +28,7 @@
         <img style="width: 500px;" src="images.png" alt="foot header">
     </div>
 
-    <form id="petForm2" action="registration.php" method="post">
+    <form id="petForm2" action="petController.php" method="post">
 
         <!--Pet Type -->
         <div id="petTypeSelection">
@@ -45,13 +45,15 @@
             <br>
             <!--name -->
                 <label for="Name" class="form-label">What is your pet's name?</label>
-                <input type="text" class="form-control" id="Name" placeholder="Enter name" required>
+                <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter name" required>
             <!--Breed -->
             <label for="dogBreed" class="form-label">What is your pet's breed?</label>
             <select id="DogBreed" name="dogBreed" class="form-control" onchange="handleDogBreedSelection()" required>
                 <option value="">-- Select --</option>
                 <option value="Pitfall">Pitfall</option>
                 <option value="Mastiff">Mastiff</option>
+                <option value="Poodle">Poodle</option>
+                <option value="Bengal">Bengal</option>
                 <option value="cant_find">Can't Find It</option>
             </select>
 

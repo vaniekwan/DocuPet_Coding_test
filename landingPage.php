@@ -42,7 +42,7 @@
        <br>
         <!--Dog form -->
         <div id="dogForm" class="form-section" style="display: none;">
-            <h3>Tell us about your dog</h3>
+            <h3 style="color:#003d99;">Tell us about your dog</h3>
             <br>
             <!--name -->
                 <label for="dogName" class="form-label">What is your dog's name?</label>
@@ -128,7 +128,7 @@
 
         <!-- Cat Form -->
         <div id="catForm" class="form-section" style="display: none;">
-            <h3>Tell us about your cat</h3>
+            <h3 style="color:#003d99;">Tell us about your cat</h3>
             <br>
             <!--name -->
                 <label for="catName" class="form-label">What is your cat's name?</label>

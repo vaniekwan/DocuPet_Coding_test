@@ -4,17 +4,16 @@ class Pet {
     private $ID;
     private $Name;
     private $Breed;
-    private $DOB;
     private $Gender;
     private $isDangerous;
 
 
-    public function __construct($ID, $Name, $Breed, $DOB, $Gender, $isDangerous) {
-        $this->ID = $ID;
+    public function __construct($ID, $Name, $Breed, $Gender, $isDangerous) {
+        $this->ID = rand(0, 9999);
         $this->Name = $Name ;
         $this->Breed = $Breed;
-        $this->DOB = $DOB;
         $this->Gender = $Gender;
+        $this->isDangerous = $this->Breed == "Pitfall" || $this->Breed == "Mastiff"; 
     }
 
     // Add getters and setters for each attribute
@@ -40,14 +39,6 @@ class Pet {
 
     public function setBreed($Breed) {
         $this->Breed = $Breed;
-    }
-
-    public function getDOB() {
-        return $this->DOB;
-    }
-
-    public function setDOB($DOB) {
-        $this->DOB = $DOB;
     }
 
     public function getGender() {
