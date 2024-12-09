@@ -5,7 +5,7 @@
 Docker (version 20+ recommended)
 
 # Getting Started 🚀
-git clone https://github.com/your-username/form-docker.git
+git clone https://github.com/vaniekwan/DocuPet_Coding_test.git <br>
 cd DocuPet_Coding_test
 
 # Run Docker
