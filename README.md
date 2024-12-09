@@ -37,6 +37,8 @@ http://localhost/landingPage.php
 
 for BackEnd:
 <br>
+models/pet.php consist the data model of the pet 
+<br>
 http://localhost/landing_backEnd.php
 
 
