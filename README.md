@@ -34,6 +34,8 @@ Note: Pet cLaws image is not the same as showed on the Mock
 for FrontEnd only :
 <br>
 http://localhost/landingPage.php
+<br>
+Disabled submit button
 
 for BackEnd:
 <br>

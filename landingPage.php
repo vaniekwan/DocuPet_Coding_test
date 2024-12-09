@@ -93,26 +93,28 @@
 
             </div>
 
-        <div id="d_dobFields" class="conditional-section" style="display: none;>
-            <label for="d_dobMonth">Date of Birth:</label><br>
-            <select id="d_dobMonth" name="d_dobMonth">
-                <option value="">Month</option>
-                <option value="1">January</option>
-                <option value="2">February</option>
-                <option value="3">March</option>
-                <option value="4">April</option>
-                <option value="5">May</option>
-                <option value="6">June</option>
-                <option value="7">July</option>
-                <option value="8">August</option>
-                <option value="9">September</option>
-                <option value="10">October</option>
-                <option value="11">November</option>
-                <option value="12">December</option>
-            </select>
-            <input type="number" name="d_dobDay" placeholder="Day" min="1" max="31" style="width: 60px;">
-            <input type="number" name="d_dobYear" placeholder="Year" min="1900" max="2024" style="width: 80px;">
-        </div>
+            <div id="d_dobFields" class="conditional-section" style="display: none;">
+                <label for="d_dobMonth" style="display: inline-block; margin-right: 10px;">Date of Birth:</label>
+                <br>
+                <select id="d_dobMonth" name="d_dobMonth" class="form-control" style="display: inline-block; margin-right: 10px; width: 110px;">
+                    <option value="">Select</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <input type="number" name="d_dobDay" placeholder="DD" min="1" max="31" class="form-control" style="width: 80px; display: inline-block; margin-right: 10px;">
+                <input type="number" name="d_dobYear" placeholder="YYYY" min="1900" max="2024" class="form-control" style="width: 100px; display: inline-block;">
+            </div>
+
 
         <div id="d_approxAgeField" class="conditional-section" style="display: none;>
             <label for="d_approxAge">What is their approximate age?</label><br>
@@ -180,8 +182,8 @@
 
         <div id="c_dobFields" class="conditional-section" style="display: none;">
             <label for="c_dobMonth">Date of Birth:</label><br>
-            <select id="c_dobMonth" name="c_dobMonth">
-                <option value="">Month</option>
+            <select id="c_dobMonth" name="c_dobMonth" class="form-control" style="display: inline-block; margin-right: 10px; width: 110px;">
+                <option value="">Select</option>
                 <option value="1">January</option>
                 <option value="2">February</option>
                 <option value="3">March</option>
@@ -195,8 +197,8 @@
                 <option value="11">November</option>
                 <option value="12">December</option>
             </select>
-            <input type="number" name="c_dobDay" placeholder="Day" min="1" max="31" style="width: 60px;">
-            <input type="number" name="c_dobYear" placeholder="Year" min="1900" max="2024" style="width: 80px;">
+            <input type="number" name="c_dobDay" placeholder="DD" min="1" max="31" class="form-control" style="width: 80px; display: inline-block; margin-right: 10px;">
+            <input type="number" name="c_dobYear" placeholder="YYYY" min="1900" max="2024" class="form-control" style="width: 100px; display: inline-block;">
         </div>
 
         <div id="c_approxAgeField" class="conditional-section" style="display: none;">
